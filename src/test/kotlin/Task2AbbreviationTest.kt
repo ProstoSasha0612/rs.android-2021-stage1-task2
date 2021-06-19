@@ -6,7 +6,7 @@ class Task2AbbreviationTest {
 
     private val converter = Abbreviation()
 
-    @Test
+        @Test
     fun testAbbreviation1() {
         assertEquals("YES", converter.abbreviationFromA("daBcd", "ABC"))
     }
